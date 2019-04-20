@@ -1,0 +1,1 @@
+Revisionist lets you rewrite the web. Update text and images on any page and take a screenshot.
