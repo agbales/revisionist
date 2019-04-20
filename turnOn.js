@@ -76,7 +76,7 @@
         html2canvas(document.querySelector('body')).then(function(canvas) {
             let a = document.createElement('a');
             a.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
-            a.download = 'eitable_screenshot.jpg';
+            a.download = 'revisionist_screenshot.jpg';
             a.click();
         });
     }
