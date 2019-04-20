@@ -1,8 +1,9 @@
 {
-"manifest_version": 2,
+    "manifest_version": 2,
     "name": "Revisonist",
     "description": "Rewrite the Internet",
-    "version": "0.1.0",
+    "version": "0.0.0.1",
+    "default_locale": "en",
     "permissions": [ "activeTab" ],
     "background": {
         "scripts": [ "toggle.js" ]
