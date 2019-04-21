@@ -11,7 +11,7 @@
     }
     document.addEventListener('click', clickHandler, true)
 
-    appendScreenshotButton()
+    // appendScreenshotButton()
 
     // ---- Functions ----
 
@@ -33,9 +33,9 @@
 
     function appendImgUpdateInput(e) {
         let form = (currentSrc) => {
-            let wrapperStyle  = 'position:fixed;bottom:0;left:0;width:100vw;padding-top:20px;padding-right:25px;padding-bottom:25px;padding-left:25px;height:30px;background-color:#f1c40f;z-index:9999;'
-            let inputStyle = 'display:inline-block;width:70vw;background-color:#f1c40f;color:#1a1a1a;padding:5px;'
-            let buttonStyle = 'display:inline-block;background-color:#fff;color:#181818;'
+            let wrapperStyle  = 'position:fixed;bottom:0;left:0;width:100vw;padding-top:20px;padding-right:25px;padding-bottom:25px;padding-left:25px;height:30px;background-color:#E4658E;z-index:9999;'
+            let inputStyle = 'display:inline-block;width:70vw;background-color:#E4658E;color:#ffffff;padding:5px;'
+            let buttonStyle = 'display:inline-block;background-color:#fff;color:#181818;border-radius:5px;border:none;padding:5px;'
 
             return(`<div id="imgUpdateInput" style=${wrapperStyle}>
                         <form>
