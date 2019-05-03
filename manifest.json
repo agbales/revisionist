@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Revisonist",
-    "description": "Rewrite the Internet",
-    "version": "0.0.0.1",
+    "name": "Revisionist",
+    "description": "Revise the Internet!",
+    "version": "0.0.0.2",
     "permissions": [ "activeTab" ],
     "background": {
         "scripts": [ "toggle.js" ]
